@@ -1,0 +1,32 @@
+body {
+    padding: 20px;
+}
+.project-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+ol {
+    list-style: none;
+    padding: 0;
+}
+ol li {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+.task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.custom-checkbox-label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.custom-checkbox-label input {
+    margin-right: 10px;
+}
