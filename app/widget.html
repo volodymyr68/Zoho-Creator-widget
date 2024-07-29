@@ -27,11 +27,15 @@
 
       <div class="task-container">
         <ol id="taskList" class="list-group w-100"></ol>
-        <button class="btn btn-primary mt-3" id="submit">Set tasks in sprint</button>
+        <div class="buttons">
+          <button class="btn btn-primary mt-3 btn" id="submit">Set tasks in sprint</button>
+          <button class="btn btn-danger mt-3 btn" id="backlog">To backlog</button>
+        </div>
       </div>
     </div>
   </div>
 </div>
+<div id="closeWidget" class="hidden"></div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
